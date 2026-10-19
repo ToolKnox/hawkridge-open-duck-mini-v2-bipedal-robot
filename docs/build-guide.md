@@ -67,7 +67,7 @@ PLA, 0.2 mm layers, 15% infill unless noted.
 
 ## 8. Software and first walk
 
-1. Install the Open Duck Mini runtime (https://github.com/apirrone/Open_Duck_Mini_Runtime) on the Pi and load a trained walking policy. Servo IDs and zero positions are described in the original `docs/configure_motors.md`.
+1. Install the Open Duck Mini runtime (https://github.com/apirrone/Open_Duck_Mini_Runtime) on the Pi and load a trained walking policy. Servo IDs and zero positions are described in `source/upstream/docs/configure_motors.md` in the project repository.
 2. With the robot on a stand, power up and check every joint moves in the expected direction at a low speed.
 3. Calibrate the IMU, then let it stand and walk on a flat floor, ready to catch it.
 
