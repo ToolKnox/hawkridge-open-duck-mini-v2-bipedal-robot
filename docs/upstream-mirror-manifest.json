@@ -1,0 +1,2058 @@
+{
+ "repo": "apirrone/Open_Duck_Mini",
+ "commit": "b23317a485b3cec7d8417f352478778b3475173c",
+ "files": [
+  {
+   "path": ".gitignore",
+   "sha": "786bdaf1bbf5f42cba010cc6094ceabd35d4ea4e",
+   "size": 173
+  },
+  {
+   "path": "BEST_WALK_ONNX.onnx",
+   "sha": "963a9710cf13b2698cab0189424b99a3442aff93",
+   "size": 884177
+  },
+  {
+   "path": "BEST_WALK_ONNX_2.onnx",
+   "sha": "7e4536d90e35f9a3a886fb7584d489ad4894dfe0",
+   "size": 884177
+  },
+  {
+   "path": "FUNDING.yml",
+   "sha": "22a38adf0169572a792d1698fcf80222d86b8fc8",
+   "size": 64
+  },
+  {
+   "path": "LICENSE",
+   "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+   "size": 11357
+  },
+  {
+   "path": "README.md",
+   "sha": "011517819fac0016d3dc66a86faa783539ab47be",
+   "size": 3985
+  },
+  {
+   "path": "docs/assembly_guide.md",
+   "sha": "7a34235e779e6c3c932efe12c156304d1361c9e9",
+   "size": 11993
+  },
+  {
+   "path": "docs/configure_motors.md",
+   "sha": "a2bf15a43eeb77917650fe51c5f6f6bc4842c633",
+   "size": 1244
+  },
+  {
+   "path": "docs/feetech_identification.md",
+   "sha": "c9dbd45781733db7c892a5a2752eff2e0843e324",
+   "size": 401
+  },
+  {
+   "path": "docs/head_schematic.xcf",
+   "sha": "014171342f0beefcd0ee9c34ff417c0b9f2e413f",
+   "size": 1564635
+  },
+  {
+   "path": "docs/open_duck_mini_v1_wiring_diagram.png",
+   "sha": "3b39e10d8ce73fa7ada6f8819f4d941892d393f2",
+   "size": 51462
+  },
+  {
+   "path": "docs/open_duck_mini_v2_wiring_diagram.drawio",
+   "sha": "c60ad8ce0f2870430f11b24908250be147e9391e",
+   "size": 30255
+  },
+  {
+   "path": "docs/open_duck_mini_v2_wiring_diagram.png",
+   "sha": "d90ebe38657694507b38e9577d85a9803dad7ddf",
+   "size": 199472
+  },
+  {
+   "path": "docs/prepare_robot.md",
+   "sha": "4a4f0c777daa3ed62c887f584412d142d0ef99db",
+   "size": 3036
+  },
+  {
+   "path": "docs/print_guide.md",
+   "sha": "aa64eba78e3d9fd993489af6477f56e11aaceacd",
+   "size": 1139
+  },
+  {
+   "path": "docs/sim2real.md",
+   "sha": "1cce56b5250f203f73b57b52744d0aabbd52e71c",
+   "size": 3721
+  },
+  {
+   "path": "docs/wiring.drawio",
+   "sha": "f533332e6f8f6161373a5ed837348cd96dbd1e52",
+   "size": 5439397
+  },
+  {
+   "path": "docs/wiring.png",
+   "sha": "2c60f3999aac566b7d363be63f247b70da941b3e",
+   "size": 8435393
+  },
+  {
+   "path": "experiments/LeRobot/README.md",
+   "sha": "3ce568ba4ed66a074f43b3239efd6c5c3d63fe2f",
+   "size": 149
+  },
+  {
+   "path": "experiments/LeRobot/new_record_episodes_hdf5_NOT_WORKING.py",
+   "sha": "c80de034e6830a1bd2c1208f12443f9f57d8553c",
+   "size": 4456
+  },
+  {
+   "path": "experiments/LeRobot/record_episodes_hdf5.py",
+   "sha": "c7f56ff50834a30b1ffb7f7bf1178ada5279b0a0",
+   "size": 6895
+  },
+  {
+   "path": "experiments/README.md",
+   "sha": "6e99a1d6abdc108636489d8d7353955e353f766c",
+   "size": 116
+  },
+  {
+   "path": "experiments/RL/env.py",
+   "sha": "de51cc41fce2b339393a6a76e460106f5fe983c3",
+   "size": 24769
+  },
+  {
+   "path": "experiments/RL/env_humanoid.py",
+   "sha": "0b68c2ccfe4717441f4a838e4f182b61068762cf",
+   "size": 13067
+  },
+  {
+   "path": "experiments/RL/new/.gitignore",
+   "sha": "314f02b1bc5939ebb5b1a48c139fd5e56daf9667",
+   "size": 5
+  },
+  {
+   "path": "experiments/RL/new/bdx_walk_in_place.txt",
+   "sha": "3f6cd4539579aace47799c4c600773d10382e511",
+   "size": 84457
+  },
+  {
+   "path": "experiments/RL/new/env.py",
+   "sha": "16bd3fb477859cb37fb217c6728b397d8b9e5ee5",
+   "size": 24631
+  },
+  {
+   "path": "experiments/RL/new/eval.py",
+   "sha": "8085b1510c6adcf040172ae43f01cd754ddda9bc",
+   "size": 3818
+  },
+  {
+   "path": "experiments/RL/new/eval_simple.py",
+   "sha": "c168b41b9710f630c9edd22300225d5333e5628e",
+   "size": 4054
+  },
+  {
+   "path": "experiments/RL/new/footsteps_env.py",
+   "sha": "d8d9e911f6ccbc8a64026c74f3ffc1494cbff03e",
+   "size": 14453
+  },
+  {
+   "path": "experiments/RL/new/get_last_from_coach.sh",
+   "sha": "4f12c8221aa90240162d536305444a1af984b07d",
+   "size": 255
+  },
+  {
+   "path": "experiments/RL/new/placo_imitate_env.py",
+   "sha": "5a2dfa2b2a45b8b2b3cd852a5062e7c50d6c4a48",
+   "size": 8920
+  },
+  {
+   "path": "experiments/RL/new/pretrain_bc.py",
+   "sha": "126ec583ab59aba57e63de330a82ce2620f5b8ac",
+   "size": 1096
+  },
+  {
+   "path": "experiments/RL/new/pretrain_gail.py",
+   "sha": "9a8ca50fb5dc607aa8c08c1a5833299d004e7859",
+   "size": 2392
+  },
+  {
+   "path": "experiments/RL/new/record_episodes.py",
+   "sha": "e898ddcbd393ac7d94484729347a92934075f69c",
+   "size": 2215
+  },
+  {
+   "path": "experiments/RL/new/record_episodes_amp.py",
+   "sha": "b4eb728c41677432971c9a5a864465c94933fadd",
+   "size": 4109
+  },
+  {
+   "path": "experiments/RL/new/record_episodes_amp_old.py",
+   "sha": "3a80d5dacf77f64d6b1adc7fb983fcb4fa736084",
+   "size": 3981
+  },
+  {
+   "path": "experiments/RL/new/simple_env.py",
+   "sha": "8d600ec08b2c52243da7130aec14d7f7077fbc36",
+   "size": 11723
+  },
+  {
+   "path": "experiments/RL/new/train.py",
+   "sha": "fb7dee738daa3da5611a6722b1b32470608ad8f6",
+   "size": 4531
+  },
+  {
+   "path": "experiments/RL/old_test.py",
+   "sha": "a28bcdc867156a724b9d90841c00dddc73b23d90",
+   "size": 2287
+  },
+  {
+   "path": "experiments/RL/play_policy.py",
+   "sha": "f62c360416bd558f8ea6708834fc9858c528a920",
+   "size": 3121
+  },
+  {
+   "path": "experiments/RL/pretrain_bc.py",
+   "sha": "9dc98b09efff22ec513416243f690873eb9c0f1f",
+   "size": 1097
+  },
+  {
+   "path": "experiments/RL/pretrain_dbrm.py",
+   "sha": "3aaae72f38b500bc676c648fa00659cfcb7c0786",
+   "size": 1780
+  },
+  {
+   "path": "experiments/RL/pretrain_gail.py",
+   "sha": "70076711c8a53c56b00ef522621a5966c1fec1e5",
+   "size": 2337
+  },
+  {
+   "path": "experiments/RL/record_episodes.py",
+   "sha": "0fa225022cca17e0776696fd20640386e38ea652",
+   "size": 5379
+  },
+  {
+   "path": "experiments/RL/replay_episodes.py",
+   "sha": "2b093829652b583926757c86d2d6474e13f19417",
+   "size": 1284
+  },
+  {
+   "path": "experiments/RL/train.py",
+   "sha": "ffa1f8de9e2fae677d4e0117dab7b877a2f6c694",
+   "size": 4567
+  },
+  {
+   "path": "experiments/RL/view_hdf5.py",
+   "sha": "27e70869b5da4f166e97cee00d57fb1de35bd6d1",
+   "size": 301
+  },
+  {
+   "path": "experiments/anti_gravity_leg/anti_gravity.py",
+   "sha": "b65c0fe56001d4e7bfec48bcac4bf1e74feccc50",
+   "size": 3086
+  },
+  {
+   "path": "experiments/identification/check_speed.py",
+   "sha": "ce20a010f056279d8c2b91f94243f8661c2db6c6",
+   "size": 1466
+  },
+  {
+   "path": "experiments/identification/get_data.py",
+   "sha": "0fdca7af697af7500e5e65a3f85f4e22bbbbdc1b",
+   "size": 4154
+  },
+  {
+   "path": "experiments/identification/plot.py",
+   "sha": "0772021aed8a71f2aecfd419d2699b6aa5daa1d8",
+   "size": 1777
+  },
+  {
+   "path": "experiments/identification/plot_action_obs.py",
+   "sha": "96692a95162f75f6b9f889cdfd710837a9979d4d",
+   "size": 4903
+  },
+  {
+   "path": "experiments/identification/plot_obs.py",
+   "sha": "f9f12a10ffdb64af859e1ebda4117710358e9e97",
+   "size": 2964
+  },
+  {
+   "path": "experiments/identification/plot_speeds.py",
+   "sha": "a5c48cc39b8cde8bb3f85fcbf31c8b735269edba",
+   "size": 483
+  },
+  {
+   "path": "experiments/identification/utils.py",
+   "sha": "2919a7b966fb818a5b772786bd9df4938415982d",
+   "size": 925
+  },
+  {
+   "path": "experiments/mujoco/.gitignore",
+   "sha": "fac783a0bd70d0de15b6dd3ddf580f4d62f6fdbb",
+   "size": 6
+  },
+  {
+   "path": "experiments/mujoco/mujoco_placo_walk_engine_demo.py",
+   "sha": "9d3d7b23ee4e9bb4ef364a6449c3848b6753b7c0",
+   "size": 3503
+  },
+  {
+   "path": "experiments/mujoco/mujoco_record_amp.py",
+   "sha": "04c6cbf8fc0e1334b56adf7d5fb5912498d1421d",
+   "size": 4388
+  },
+  {
+   "path": "experiments/mujoco/mujoco_walk_engine.py",
+   "sha": "35e7e27c920139fc2c2b30b472d15480bc09070a",
+   "size": 5934
+  },
+  {
+   "path": "experiments/mujoco/onnx_AMP_for_hardware_mujoco.py",
+   "sha": "ca9dc59183cb9cf5ae43053dbc9b6c6a6617b209",
+   "size": 8724
+  },
+  {
+   "path": "experiments/mujoco/onnx_AMP_mujoco.py",
+   "sha": "59f06039f91fc2d1eab5c73588a7530ec08ccbcd",
+   "size": 7000
+  },
+  {
+   "path": "experiments/mujoco/plot_latent.py",
+   "sha": "fe445b70f1ff0c3cc54e528e862c9c06f057e11a",
+   "size": 301
+  },
+  {
+   "path": "experiments/placo/.gitignore",
+   "sha": "8587f598f7500d17f946d2361edbf5aa58bdcf4b",
+   "size": 26
+  },
+  {
+   "path": "experiments/placo/auto_placo_record_amp.py",
+   "sha": "da2b1fb04746664bcd0eaaafe2c2506cea5d7843",
+   "size": 1388
+  },
+  {
+   "path": "experiments/placo/bdx_walk.py",
+   "sha": "53918928e5e265bb093e4b5fda701784926f00eb",
+   "size": 11560
+  },
+  {
+   "path": "experiments/placo/generate_orientations_amp.py",
+   "sha": "eea7eeb151f18726f84ffeed38dd06ecb0413f11",
+   "size": 1709
+  },
+  {
+   "path": "experiments/placo/placo_record_amp.py",
+   "sha": "62bcabe1861dd9bce61eb8d9f623b6a86648e5e0",
+   "size": 8523
+  },
+  {
+   "path": "experiments/placo/placo_record_amp_moves.py",
+   "sha": "56cfb7a571e3972a96263b8b29ca199b506d1782",
+   "size": 5819
+  },
+  {
+   "path": "experiments/placo/placo_walk_engine_mujoco.py",
+   "sha": "6a8aee3c3c3418f0ecf3b92b022c768bf4dbc88c",
+   "size": 3533
+  },
+  {
+   "path": "experiments/placo/placo_walk_engine_test.py",
+   "sha": "5c12b531535f2d939541b50c67c2675e70519e45",
+   "size": 1093
+  },
+  {
+   "path": "experiments/placo/replay_amp.py",
+   "sha": "150e48c3d2ef5298b0ac2dddc54783d5eb6ac0ac",
+   "size": 2580
+  },
+  {
+   "path": "experiments/placo/test_bdx.py",
+   "sha": "3479ba3fbdb5a96036ffd2bba9a9ffce7a85ce3c",
+   "size": 2902
+  },
+  {
+   "path": "experiments/placo/test_placo_hwi_tmp.py",
+   "sha": "a9eb1f449152b76bd240465dce586b45ca5d1036",
+   "size": 357
+  },
+  {
+   "path": "experiments/real_robot/imu_gyro.py",
+   "sha": "5bb5f643fd2ca26b7627323fde7e3f416f7697ec",
+   "size": 2396
+  },
+  {
+   "path": "experiments/real_robot/move_test.py",
+   "sha": "a097192049f5234e1e06e7d7cd0d7f153eaca428",
+   "size": 1115
+  },
+  {
+   "path": "experiments/real_robot/new_run.py",
+   "sha": "32f826cdc942915ad2651031b5c92849c7fda6b8",
+   "size": 800
+  },
+  {
+   "path": "experiments/real_robot/plot.py",
+   "sha": "d466892979ee8d924a549187006104266d10685f",
+   "size": 1088
+  },
+  {
+   "path": "experiments/real_robot/plot_imu.py",
+   "sha": "a667469177884432a1dc6ec1d807f6304d737e6a",
+   "size": 913
+  },
+  {
+   "path": "experiments/real_robot/pressure_test.py",
+   "sha": "3add6cd8cd7924a25355a9989e7d7e53f5131b68",
+   "size": 473
+  },
+  {
+   "path": "experiments/real_robot/raw_imu_gyro.py",
+   "sha": "13291345f9bee2abba1278dd71d86b272224acda",
+   "size": 1432
+  },
+  {
+   "path": "experiments/real_robot/replay_imu_data.py",
+   "sha": "5b3f99e4dcbcc140ea0823a8d125a406d29a10e2",
+   "size": 878
+  },
+  {
+   "path": "experiments/real_robot/rl_walk.py",
+   "sha": "a9e0de6ed94a147cacd8c227fda306955dd41a5f",
+   "size": 2044
+  },
+  {
+   "path": "experiments/real_robot/run.py",
+   "sha": "ead6d90593e0406147f5a2cc89ff86306df563fe",
+   "size": 4582
+  },
+  {
+   "path": "experiments/real_robot/utils.py",
+   "sha": "f3ecf4c18fb282a7fe3ec0532cf9b3875273a5c0",
+   "size": 352
+  },
+  {
+   "path": "experiments/v2/MUJOCO_LOG.TXT",
+   "sha": "6d3fa6069328eae829595b327f3bb57922d2ebdd",
+   "size": 357
+  },
+  {
+   "path": "experiments/v2/bench_com_time.py",
+   "sha": "7da04e8224b1650a4a9712f4398e971bf9d6dc64",
+   "size": 522
+  },
+  {
+   "path": "experiments/v2/configure_motors.py",
+   "sha": "141b67a602913643555f5f45a992dda0679bbc84",
+   "size": 2750
+  },
+  {
+   "path": "experiments/v2/identification.py",
+   "sha": "f19f605aabc53b6b151ba9ba807dad4f3da35037",
+   "size": 2071
+  },
+  {
+   "path": "experiments/v2/mujoco_placo_walk.py",
+   "sha": "9bb8de3fcf0d47b0cd8f1b7bb8ac25d938303cab",
+   "size": 2127
+  },
+  {
+   "path": "experiments/v2/onnx_AWD_mujoco.py",
+   "sha": "b47a7171929dbfc1a4510d2665d56f663b213241",
+   "size": 6373
+  },
+  {
+   "path": "experiments/v2/onnx_AWD_mujoco_motor_control.py",
+   "sha": "0a45410cb5172958e0b1e2a51517326c4ae20871",
+   "size": 6950
+  },
+  {
+   "path": "experiments/v2/params_m6.json",
+   "sha": "684ca7187b2a5893ca7254098eacfaf714039be0",
+   "size": 615
+  },
+  {
+   "path": "experiments/v2/placo_defaults.json",
+   "sha": "cba3d002a0b23e83c72bba75ae1e579e85750a62",
+   "size": 1103
+  },
+  {
+   "path": "experiments/v2/placo_fun_moves.py",
+   "sha": "0dd057f7eee791a12e3cdbfa44d07581b3a96854",
+   "size": 4246
+  },
+  {
+   "path": "experiments/v2/placo_walk_real_robot.py",
+   "sha": "b3ec714af0b4ca7865dcb7cb610e03b7d328a472",
+   "size": 2875
+  },
+  {
+   "path": "experiments/v2/plot.py",
+   "sha": "ea07bc0e378117375fb3ed4da17ba333ed6e944b",
+   "size": 1095
+  },
+  {
+   "path": "experiments/v2/plot_adaptation_module_latent.py",
+   "sha": "14035a99090ed9be3ac38fde39cc54bca99ea8ec",
+   "size": 313
+  },
+  {
+   "path": "experiments/v2/plot_adaptation_module_latent.py~",
+   "sha": "e67326d30e5f8694952ef69e0b0fc095e8da3a3a",
+   "size": 313
+  },
+  {
+   "path": "experiments/v2/pwm_control_test.py",
+   "sha": "b9ee743a06e522ac4946eb83d538c494ab82483c",
+   "size": 3927
+  },
+  {
+   "path": "experiments/v2/test.py",
+   "sha": "6198845b8a4054ad9c2f9157e8dba63a149c7c84",
+   "size": 1113
+  },
+  {
+   "path": "experiments/v2/test_understand_isaac_mujoco_transfer.py",
+   "sha": "b3303b8642ca80ea1c0c72ed1532330653eaaffa",
+   "size": 2662
+  },
+  {
+   "path": "experiments/v2/test_understand_isaac_mujoco_transfer_motor_control.py",
+   "sha": "a83052e542bfa95ed804c332f790a6221c459c53",
+   "size": 3224
+  },
+  {
+   "path": "experiments/v2/walk_test.py",
+   "sha": "4ab6f5493ae74eae1e4732742b69f8f8a9077308",
+   "size": 495
+  },
+  {
+   "path": "mini_bdx/__init__.py",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0
+  },
+  {
+   "path": "mini_bdx/mini_bdx/__init__.py",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0
+  },
+  {
+   "path": "mini_bdx/mini_bdx/old_walk_engine/__init__.py",
+   "sha": "eb1ba4b6f39281e2948c61124fb9a798f5867873",
+   "size": 36
+  },
+  {
+   "path": "mini_bdx/mini_bdx/old_walk_engine/walk_engine.py",
+   "sha": "47482c94fbd7aa32b37e4b281ecbcef016d0c28e",
+   "size": 16657
+  },
+  {
+   "path": "mini_bdx/mini_bdx/placo_walk_engine/__init__.py",
+   "sha": "fca1e25f4ad446215671325694f1e855fa0b6637",
+   "size": 47
+  },
+  {
+   "path": "mini_bdx/mini_bdx/placo_walk_engine/placo_walk_engine.py",
+   "sha": "f2aa4156b9ddb371c7564de5f66c5b87e992ec17",
+   "size": 11582
+  },
+  {
+   "path": "mini_bdx/mini_bdx/placo_walk_engine/placo_walk_engine.py.bak",
+   "sha": "4eccafc19cb90fb162fd76496a623c677a0264d8",
+   "size": 11993
+  },
+  {
+   "path": "mini_bdx/mini_bdx/utils/__init__.py",
+   "sha": "faf89262d8e7f96c45a5130d8e6922fb6b165b0c",
+   "size": 36
+  },
+  {
+   "path": "mini_bdx/mini_bdx/utils/mujoco_utils.py",
+   "sha": "8edbfa29dfbb8fa16ae8b4e13924f970e04a8f9b",
+   "size": 1858
+  },
+  {
+   "path": "mini_bdx/mini_bdx/utils/poly_spline.py",
+   "sha": "ad00ed3acfbb1663cf712734c3e6d823c5d40e18",
+   "size": 4368
+  },
+  {
+   "path": "mini_bdx/mini_bdx/utils/rl_utils.py",
+   "sha": "a5a0ae9c3b5f2bef549958482604d5d63d37479d",
+   "size": 2669
+  },
+  {
+   "path": "mini_bdx/mini_bdx/utils/xbox_controller.py",
+   "sha": "bd0b64018a2aa4d75b0aca6563c50650d3f9dc62",
+   "size": 4799
+  },
+  {
+   "path": "mini_bdx/robots/.gitignore",
+   "sha": "9c9cd7b56a8c249e806db5cd106a25a21f964f44",
+   "size": 7
+  },
+  {
+   "path": "mini_bdx/robots/.gitignore~",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0
+  },
+  {
+   "path": "mini_bdx/robots/bdx/config.json",
+   "sha": "49a9eac5ebefacb820e814bfa4c47e8e08ee5ae3",
+   "size": 105
+  },
+  {
+   "path": "mini_bdx/robots/bdx/robot.urdf",
+   "sha": "16f9f195b75236689a30a82d74857214173c1765",
+   "size": 129078
+  },
+  {
+   "path": "mini_bdx/robots/bdx/robot.xml",
+   "sha": "403e3aead334d9b5396ce04e7239628dd87fc0e2",
+   "size": 30727
+  },
+  {
+   "path": "mini_bdx/robots/bdx/scene.xml",
+   "sha": "01f1a0261b9bdc0e763cdeae4126819904e1c9d7",
+   "size": 1313
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/config.json",
+   "sha": "a1032a4f56cdea3af8bbbc168b7409234dab4cdb",
+   "size": 119
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/robot.urdf",
+   "sha": "2b90f41a1542377543bcb7b610caf3bcb3394758",
+   "size": 126658
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/robot.xml",
+   "sha": "05b788c29d81c54c63149901e586a8521f39ac4e",
+   "size": 31695
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/robot_motors.xml",
+   "sha": "d4ccdb3732d7e4ab899ae70c73018b6ebfca454d",
+   "size": 57149
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/scene.xml",
+   "sha": "d4f7b0cd20194829431a360d0bdff08d55bdd897",
+   "size": 1359
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/scene_position.xml",
+   "sha": "31b5f6349bf57bc7223e9c5d5b45c77483d97eae",
+   "size": 1358
+  },
+  {
+   "path": "print/battery_pack_lid.stl",
+   "sha": "c2ba5f890f9acfe42d28b937a2248f27b49442c6",
+   "size": 97184
+  },
+  {
+   "path": "print/body_back.stl",
+   "sha": "564b8c22171f8b554c751c9180fc4634a900ad19",
+   "size": 353884
+  },
+  {
+   "path": "print/body_front.stl",
+   "sha": "ec3a0486e0aea47916d5928b3d8754707ba179d9",
+   "size": 195384
+  },
+  {
+   "path": "print/body_middle_bottom.stl",
+   "sha": "b4207ccf29f1a8f2537256e66535f9213d27e8da",
+   "size": 339884
+  },
+  {
+   "path": "print/body_middle_top.stl",
+   "sha": "96dd935b52183a5bbb9d05e00168df00ebbffea0",
+   "size": 244684
+  },
+  {
+   "path": "print/bulb.stl",
+   "sha": "93f7d48e4caf49a47b7d8501654a1830ac5d3d5a",
+   "size": 139884
+  },
+  {
+   "path": "print/flash_light_module.stl",
+   "sha": "97c3f494942891fa0cc51048b8d1a446384c9def",
+   "size": 328784
+  },
+  {
+   "path": "print/flash_reflector_interface.stl",
+   "sha": "1919e29f50870573035ebf06b32ee21f3a393cea",
+   "size": 44484
+  },
+  {
+   "path": "print/foot_bottom_pla.stl",
+   "sha": "b53e0d592deeb4b1375c1bcb169e034b47c91e67",
+   "size": 48084
+  },
+  {
+   "path": "print/foot_bottom_tpu.stl",
+   "sha": "2aed4b8bb6132c5740b89887fcf823121bc8cfe5",
+   "size": 77384
+  },
+  {
+   "path": "print/foot_side.stl",
+   "sha": "55bb289d938b167b87c06b8e28110f2444a026df",
+   "size": 190084
+  },
+  {
+   "path": "print/foot_top.stl",
+   "sha": "134284e4e80f63a6c91ffa074d386d75408904ce",
+   "size": 181384
+  },
+  {
+   "path": "print/head.stl",
+   "sha": "ccf72118a91d58c0887b649e323b15ae40751658",
+   "size": 1784584
+  },
+  {
+   "path": "print/head_bot_sheet.stl",
+   "sha": "95c939e7348af28673db86085143bb7314e9ca7c",
+   "size": 238884
+  },
+  {
+   "path": "print/head_pitch_to_yaw.stl",
+   "sha": "e64ad2f63174efd344f1f77a88861e1e248444ee",
+   "size": 535584
+  },
+  {
+   "path": "print/head_roll_mount.stl",
+   "sha": "93aec87e7da1ce5a9d2533ddde7364b280e63b60",
+   "size": 228284
+  },
+  {
+   "path": "print/head_yaw_to_roll.stl",
+   "sha": "29edd445000d7a2e80707e71f391b8eb50a47232",
+   "size": 281884
+  },
+  {
+   "path": "print/knee_to_ankle_left_sheet.stl",
+   "sha": "e8a82efaded2ab4274a1987c6c8d2d06ed5d1044",
+   "size": 227284
+  },
+  {
+   "path": "print/knee_to_ankle_right_sheet.stl",
+   "sha": "8242f8c2948c90a31cf7242e560b626c04bcfcd4",
+   "size": 232284
+  },
+  {
+   "path": "print/left_antenna_holder.stl",
+   "sha": "2df311cb3c2c377b31647faa893eecbe17771d1c",
+   "size": 72184
+  },
+  {
+   "path": "print/left_cache.stl",
+   "sha": "0ce5ca2360b7a3aabf13a02e11e5fa05616d330d",
+   "size": 86984
+  },
+  {
+   "path": "print/left_eye.stl",
+   "sha": "6281ea1cc564a8403b414fa1bba41cad68a40a8e",
+   "size": 106084
+  },
+  {
+   "path": "print/left_roll_to_pitch.stl",
+   "sha": "9a60364a1ad28523a9a080902abda29b737e9192",
+   "size": 398884
+  },
+  {
+   "path": "print/leg_spacer.stl",
+   "sha": "c57f8d28e1d5d21bb53af06ecb4edacc1957ea7e",
+   "size": 114684
+  },
+  {
+   "path": "print/neck_left_sheet.stl",
+   "sha": "e91778a9cd0858bcfbc873430abb95c4089083aa",
+   "size": 171484
+  },
+  {
+   "path": "print/neck_right_sheet.stl",
+   "sha": "c05919e8afba3e510d72f235e7ab0eb9bb602d64",
+   "size": 175084
+  },
+  {
+   "path": "print/right_antenna_holder.stl",
+   "sha": "3797e0c953080dec9279f1a4ddd91488f26a8344",
+   "size": 72084
+  },
+  {
+   "path": "print/right_cache.stl",
+   "sha": "16c24f09ab9cb627b80df4a8bd586c6402d1cf19",
+   "size": 86984
+  },
+  {
+   "path": "print/right_eye.stl",
+   "sha": "185500a8278c1f56e820c5e0530b8f3b63c2f0b7",
+   "size": 114684
+  },
+  {
+   "path": "print/right_roll_to_pitch.stl",
+   "sha": "d57105df9debff76c938c1e83e60eebb01e689fe",
+   "size": 398884
+  },
+  {
+   "path": "print/roll_motor_bottom.stl",
+   "sha": "a8dcb05b758df19766c596a63b73fdaaf0bd255c",
+   "size": 68084
+  },
+  {
+   "path": "print/roll_motor_top.stl",
+   "sha": "91ac599a150dd23a5d48d25223cf2e7865c6f636",
+   "size": 183784
+  },
+  {
+   "path": "print/speaker_interface.stl",
+   "sha": "dd7225e7a9773b8716d92344403f73be459429c6",
+   "size": 115884
+  },
+  {
+   "path": "print/speaker_stand.stl",
+   "sha": "4265223ddcca61bdd903a14a434d7e5d22f23d24",
+   "size": 1069584
+  },
+  {
+   "path": "print/trunk_bottom.stl",
+   "sha": "a9545d1742903f203343cb696c5e3767bb2389a0",
+   "size": 222384
+  },
+  {
+   "path": "print/trunk_top.stl",
+   "sha": "4fd87116116f816b458e83b87f6e7698defb637d",
+   "size": 723884
+  },
+  {
+   "path": "pyproject.toml",
+   "sha": "7fd26b970b848120ad4f6ab398e1864ab0111e60",
+   "size": 80
+  },
+  {
+   "path": "setup.cfg",
+   "sha": "a50de1d198e9c8ce0cd36584a663af4a3c903fae",
+   "size": 897
+  },
+  {
+   "path": "thanks.md",
+   "sha": "30f984e356eddfbef20adb5e1aae30b8e37a362f",
+   "size": 255
+  }
+ ],
+ "excluded": [
+  {
+   "path": "mini_bdx/robots/bdx/39281023.prt.part",
+   "sha": "f06679f8d713bff55b91eeff68dd6ab1fadd2a71",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/39281023.prt.stl",
+   "sha": "3ca5977f60107a6d704511ddae7755eb6ca34ac7",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/antenna.part",
+   "sha": "3d84899f40024eb5fc93bc00e80e46c9ff14fe84",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/antenna.stl",
+   "sha": "957ed1d1ad1ff9cc9285269cbea7b4aa637cfd9d",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/antenna_holder_left.part",
+   "sha": "c089398dc8c41c2c639ad702766f3d373ebbfcc5",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/antenna_holder_left.stl",
+   "sha": "c014a7bc6f98119610376a9853c81b0409ca878a",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/antenna_holder_right.part",
+   "sha": "446e932303c23990d2010bb37529e30fc81c5df0",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/antenna_holder_right.stl",
+   "sha": "cb55a2df111fd63c88fe137df01a6a9e884f12f6",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/antenna_motor_holder.part",
+   "sha": "567395725e30ff86fcb18da5dbb06022b959072e",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/antenna_motor_holder.stl",
+   "sha": "4510f41335fdabf0bd63c2ae2380801ca9d0350a",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/antenna_tip.part",
+   "sha": "28a1b78b0ae9f73b8def504d2c421724b85ae952",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/antenna_tip.stl",
+   "sha": "10ffbe92390723783e5166730038d5a6153f99bd",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/axis_to_axis.part",
+   "sha": "90f64f3d109f606b49062714b600bb324df47a4e",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/axis_to_axis.stl",
+   "sha": "8bd53afeefa2bfb085b0f128e5c7bcc5b669d47c",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/block_to_axis.part",
+   "sha": "a8e033258e380e9e8830a700ea967acb930c4f2d",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/block_to_axis.stl",
+   "sha": "b811f4340bc064ea8b45847d3e6500b651564a4f",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/bms.part",
+   "sha": "5adf5a2a3569cc7d4d9c18298ad3c9c76f47dbdd",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/bms.stl",
+   "sha": "4598b81e1f3f214b793c2183fce66ae93be13783",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/bno055.part",
+   "sha": "834b7275a1a4ee447eda3cb45e136a8ec537d686",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/bno055.stl",
+   "sha": "047b6200b1a00ad36193d4d67e8d7e332fb04e95",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/board.part",
+   "sha": "dacfd4b428f3116d29ad5b30474e386832b85de0",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/board.stl",
+   "sha": "ebdecfec222d282b5385dcfb2a4fd23366d4235e",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/body_part.part",
+   "sha": "bf178fbe3aed8bc7d5cbe75ca1c641589f9f5407",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/body_part.stl",
+   "sha": "cd219cd8de6efdf373148a66024886ded5f3370d",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/cage_back.part",
+   "sha": "3dcb855c3aae91a444006b06f7ab9931efed1b20",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/cage_back.stl",
+   "sha": "4616af96f52d918fa86609762a10f2aafc133e06",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/cage_bottom.part",
+   "sha": "082d2527e515230a67059e1df976ddff89706cdf",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/cage_bottom.stl",
+   "sha": "8cdbc2e9926e3922c6bc7486be48d005ff27af6c",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/cage_bottom_battery_hold.part",
+   "sha": "6476567f8dbbe0efd108c1062841e39a254f69b2",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/cage_bottom_battery_hold.stl",
+   "sha": "2ac1ca6c1f142dcb7963cc98115b91ac2e428915",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/cage_top.part",
+   "sha": "c5c118bf44155b1236c857279ca2892a1d431ed4",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/cage_top.stl",
+   "sha": "1c35e18e93d5291c9217158e0f1db6d7828d7832",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/cell.part",
+   "sha": "0c5f04876fc20684d1437283f2db682644bf47bb",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/cell.stl",
+   "sha": "20e4cc3edb599aa5eb4e0fed4382a5ac49ce6e59",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/dc15_a01_case_b_dummy.part",
+   "sha": "2f84b4d51501bef855b2fac6803917bc62b204c6",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/dc15_a01_case_b_dummy.stl",
+   "sha": "8bc42f328dbdca8a78445863344f24610ee1d95f",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/dc15_a01_case_f_dummy.part",
+   "sha": "3aa90054e04313facd95c059abbb88474fbcd3c5",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/dc15_a01_case_f_dummy.stl",
+   "sha": "211a2ee0bd0fef417b4d4accac70e65328c895e0",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/dc15_a01_case_m_dummy.part",
+   "sha": "a92d5fa2d329a9ca9e5c164bda3bd10dc9601ad1",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/dc15_a01_case_m_dummy.stl",
+   "sha": "7f4c118fb3bed140f43a99f9f0b1ddb7f170f4c8",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/dc15_a01_horn_dummy.part",
+   "sha": "2240b099b303190c5492573c10f76268358dadeb",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/dc15_a01_horn_dummy.stl",
+   "sha": "c56ae4ab3205a8cab20bf0380340c4ae772b396f",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/dc15_a01_horn_idle2_dummy.part",
+   "sha": "1e70692357f43721d69be0389499a9269cc52bd3",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/dc15_a01_horn_idle2_dummy.stl",
+   "sha": "d36e0799394b83fdf719a42bd7996701f167c4de",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/double_u.part",
+   "sha": "aa6358d5a849c32a1dc606e0d22d226857b98b29",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/double_u.stl",
+   "sha": "c31e3098f64070b171f8b3468ec3577d372102b5",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/foot.part",
+   "sha": "9b3b38b43a30a352cb9faa1f1daf38fba31b401a",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/foot.stl",
+   "sha": "360e25d01e71c6d7d12fa1f3c3e49abd195ec123",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/foot_contact.part",
+   "sha": "98cd5442a118e0af237a1e566b06d942cf5a5fa0",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/foot_contact.stl",
+   "sha": "0675f8bd0d2b394313716b657511a16287fd8a72",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/front_cover.part",
+   "sha": "366aa6db3028b0e37c2e49013b9752a7d1688b5b",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/front_cover.stl",
+   "sha": "6a26fd1d1fee5e5acb6cbb95a99f997de7af9851",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/head.part",
+   "sha": "e5d1eee1cec402ac041bd775c2e939ab81e4de06",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/head.stl",
+   "sha": "87e00df046b39c97ed0fbc43af5edd755da8d015",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/head_roll_pitch.part",
+   "sha": "c1b82d850a739741a63ed54e481b456d9867829a",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/head_roll_pitch.stl",
+   "sha": "b18e1a28e5d27e134cac9852ede010476bed817d",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/hip_left_roll_to_pitch.part",
+   "sha": "0272703f0c316c6cc829190f7d0658e300913b6b",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/hip_left_roll_to_pitch.stl",
+   "sha": "ba4bf36a4990c5c8ec2dee5453bc6eba1563d5b8",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/hip_right_roll_to_pitch.part",
+   "sha": "4d2c985680e6bdfb77d319a012d9bb8641482337",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/hip_right_roll_to_pitch.stl",
+   "sha": "ea5c3a4bb9203a24dd567eb312fee8db6fc41181",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/holder.part",
+   "sha": "9224de8b567e349f615ffaedb3d6dc898a116e55",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/holder.stl",
+   "sha": "0d3f38266fdc7f4181535b7ab22004268bf1e4d8",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/holder_u2d2_power_hub.part",
+   "sha": "1288771d171c1741d1e0eb052ccbbd0641d99660",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/holder_u2d2_power_hub.stl",
+   "sha": "446c0158bba1a360172083274fb87195c3dd1b9f",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/jst-b3b-eh-a.prt.1.part",
+   "sha": "b23e220966557cbcdd8015dd8563258e7c8d5498",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/jst-b3b-eh-a.prt.1.stl",
+   "sha": "226244660d2c02ec703aa4c0b7e22385a3db13ff",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/jst-b3b-eh-a.prt.part",
+   "sha": "62eca13117a02b449b7792e453d53c9f91e1fe96",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/jst-b3b-eh-a.prt.stl",
+   "sha": "226244660d2c02ec703aa4c0b7e22385a3db13ff",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/jst-b4b-eh-a.prt.1.part",
+   "sha": "53a482054163a3d33b870cfdc58da39b42b391f0",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/jst-b4b-eh-a.prt.1.stl",
+   "sha": "a957dc2518a549b97bef24c4c7d4a752ff9bb0be",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/jst-b4b-eh-a.prt.part",
+   "sha": "ebdbae7a4f6830b87b9979adea39d64c546840a4",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/jst-b4b-eh-a.prt.stl",
+   "sha": "a957dc2518a549b97bef24c4c7d4a752ff9bb0be",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/jst-b4b-ph-k-s.prt.part",
+   "sha": "3d5cc523536d207287ce485bbea540acf677bef7",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/jst-b4b-ph-k-s.prt.stl",
+   "sha": "3f02215c066242c93bb1a331d15044cd3da93f61",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/micro_usb_2_0_connector__ab_rec.prt.part",
+   "sha": "c0d975f80eb444793dad45539890932a9493d894",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/micro_usb_2_0_connector__ab_rec.prt.stl",
+   "sha": "10c20a8d1d9f686a37df558295219af35d0781f6",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/pcb_u2d2.prt.part",
+   "sha": "6974d483472f313f9e61d8ddfc756b003c5c22c1",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/pcb_u2d2.prt.stl",
+   "sha": "d620752be14b21b0df1da0572b60f88a730cfe2a",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/power_switch.part",
+   "sha": "98053ba250e1a74c227092d7b77937296b9bdddb",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/power_switch.stl",
+   "sha": "12a17d9ec655d184735d91c9e1c5eb43431e59b2",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/rasp_spacer.part",
+   "sha": "d14b889517dfd62dc17a288956ab8de12ac3e1f4",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/rasp_spacer.stl",
+   "sha": "5cd723a2b7e1966bb75d50fa94fbfcd872251e1c",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/raspberrypizerow.part",
+   "sha": "e93fb0951e6323eebc30e3758f94ccfb1f466360",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/raspberrypizerow.stl",
+   "sha": "93e9d8abcec277b8fb9802f1c477e8b3eb46be4a",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/renfort_head_link.part",
+   "sha": "50ef50a5c2f2b0e0b5f844c62b2202bc1f824ad5",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/renfort_head_link.stl",
+   "sha": "d335e8133b57bd3017cb75f91d5b1dbbc2599c6d",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/renfort_leg.part",
+   "sha": "4ddbedcc8b3978dfbfd87ffc40bd1fde45fee713",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/renfort_leg.stl",
+   "sha": "63a1691795d64edb7390b18c836b6aef797da73a",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/sg90.part",
+   "sha": "cbe4d1f75d928b43f57fcd87dfde10a4aa0b59c4",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/sg90.stl",
+   "sha": "581f49c498bf46b928705d07438c9a17a581a64b",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/spacer.part",
+   "sha": "dba4834dbf1a669ee892260485530fba051ba2eb",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/spacer.stl",
+   "sha": "3e96b26ee7c2c9c30a858a85a28d776586f7f0ef",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/u2d2_casing.prt.part",
+   "sha": "6859ce6ec3948de2b8a85dcbebd466cf1bf3b468",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/u2d2_casing.prt.stl",
+   "sha": "fb3248120b8b7b10190e69655d4172f82c7bcd30",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/usb_c_charger.part",
+   "sha": "295580563e09cc6b8bdb233776cce610dd930f91",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/bdx/usb_c_charger.stl",
+   "sha": "b2483b9b5360dd4b15ebf59414ff19bf1a430191",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/antenna.part",
+   "sha": "1a8f3a41ece7422ded64755e6775ad622cf2431f",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/antenna.stl",
+   "sha": "07eb706cc428ae85ff872ebfe7230e6cf9e3659b",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/battery_pack_lid.part",
+   "sha": "c42dd15d33473e76a6cfb8e446023f7443986fca",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/battery_pack_lid.stl",
+   "sha": "076eb25379886500fc0a8e1c68ca0db76548db46",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/bms.part",
+   "sha": "d5e0fd2749560ee3611e42aa55f4bd453d9f8213",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/bms.stl",
+   "sha": "4598b81e1f3f214b793c2183fce66ae93be13783",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/bno055.part",
+   "sha": "31c1864b160a0dc72cdb04bd66c8c2a78f68123b",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/bno055.stl",
+   "sha": "6de1ee77e5615d234906e3e806fa734009be7ded",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/board.part",
+   "sha": "dbd8cbc3a95e3fbb0bdbc5d53187d1b8d085a8b2",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/board.stl",
+   "sha": "f2f3da5213048ac949eb5a9543483d38c6377f96",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/body_back.part",
+   "sha": "0cac428f457f160e76c55c67399eaacc2c0c4199",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/body_back.stl",
+   "sha": "b6692ac82daaf95830d392274c114a8992c10014",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/body_front.part",
+   "sha": "6bcf2618bd4add2d744b40f31c22d441918de67f",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/body_front.stl",
+   "sha": "fa76bb48b7ce53743ce48309e32874a50c068d81",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/body_middle_bottom.part",
+   "sha": "93a82735b4858f9873d4c9f4e8ab70555a6b9cc7",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/body_middle_bottom.stl",
+   "sha": "9c8ccee8a7fb5774f6a7b8d6ed6602491bc1cf35",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/body_middle_top.part",
+   "sha": "b39e8278f29b93e3e85f33e4bf6778ad71ce5c62",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/body_middle_top.stl",
+   "sha": "5530f0bed8ce1c1fba99f161a50932fc59069c0c",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/cell.part",
+   "sha": "c7c9417eb8131dd16e371d4c8bcfe5c12460a13e",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/cell.stl",
+   "sha": "20e4cc3edb599aa5eb4e0fed4382a5ac49ce6e59",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/drive_palonier.part",
+   "sha": "b940a1af0bfc61db9cda1af941bb6b69b6797f89",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/drive_palonier.stl",
+   "sha": "66e60e43f9f7649b66f8441a9eebf4eaa6fa5ae4",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/foot_bottom_pla.part",
+   "sha": "e087dd55d33f107348a46e927b027a4407628128",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/foot_bottom_pla.stl",
+   "sha": "66feed794a487f1a6c0297c5fca1911fcbe37b0d",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/foot_bottom_tpu.part",
+   "sha": "22b27eb5f585f473b1c8d634aae8768fb9e3997d",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/foot_bottom_tpu.stl",
+   "sha": "4f0532650f84362ab119379e808faab94ffa35ca",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/foot_side.part",
+   "sha": "55842e9dde5fcec21a13eecf8b9d194d4552216d",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/foot_side.stl",
+   "sha": "20a434e68d0a546bde8e7e941ffc1e33a5ce8c95",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/foot_top.part",
+   "sha": "8981480ac990657e7989b47c19a3c4a7e2613e32",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/foot_top.stl",
+   "sha": "0d08c19c45af870a113ece764a7ba4c45a309cc2",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/head.part",
+   "sha": "1395a554c4fa2ebb328c95c3eec0fed84efecd78",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/head.stl",
+   "sha": "2a101fdb17156caeeff4d0ea2732af6ad67bfcb7",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/head_bot_sheet.part",
+   "sha": "4184b670d518e38e9bcb899d1ef3a544a8a1edf8",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/head_bot_sheet.stl",
+   "sha": "c565ba6598389223362f0d87b271650d80c0d285",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/head_pitch_to_yaw.part",
+   "sha": "7892e946bdae7c7600ef47dedfb5ab643d5cfecf",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/head_pitch_to_yaw.stl",
+   "sha": "1de8aef149cdc701479a8a0fdc6a35e0ef3df575",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/head_roll_mount.part",
+   "sha": "01b0ff20045b4a57e3674ef3a34f68a1759ca469",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/head_roll_mount.stl",
+   "sha": "e6efec912d0731e2fb0e6bf948a443275812e828",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/head_yaw_to_roll.part",
+   "sha": "df7aa08ccae2cfce637c0d3c187d40b48724defe",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/head_yaw_to_roll.stl",
+   "sha": "14a21226850b5c445b64d15bb20db189a9a3de8d",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/holder.part",
+   "sha": "cd32e37c2faa8e75df95c5d1509de5ec2b4238a6",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/holder.stl",
+   "sha": "0d3f38266fdc7f4181535b7ab22004268bf1e4d8",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/left_antenna_holder.part",
+   "sha": "b56531fadaa0d2969d75a73ee3d67ba309b2aabd",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/left_antenna_holder.stl",
+   "sha": "5b20ae7a3a6f09978b0c0903cfee3887f01a6ee5",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/left_cache.part",
+   "sha": "b68c1207ab9166ff5062484c799b44ec380a7fd1",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/left_cache.stl",
+   "sha": "a927bc9b04039948e466784101b284c83675ccae",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/left_knee_to_ankle_left_sheet.part",
+   "sha": "c5f56e0f25dd227469122f78331c4896f96b12f8",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/left_knee_to_ankle_left_sheet.stl",
+   "sha": "e46725d19abdcfb1b9a511f4d6ea92b57e840f9f",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/left_knee_to_ankle_right_sheet.part",
+   "sha": "72193f897b4a84667d748208b8f3125e16ed8ef8",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/left_knee_to_ankle_right_sheet.stl",
+   "sha": "a1fc36e9ab5390eddf95e33bc4d66b30abcc8965",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/left_roll_to_pitch.part",
+   "sha": "80362938b479f0693cb0a861e19de40b789ed9db",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/left_roll_to_pitch.stl",
+   "sha": "11ee400498adaee000f07ea3a6971cb497451eca",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/leg_spacer.part",
+   "sha": "7ca518f74242fd0540712e63c5e67538216c1b62",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/leg_spacer.stl",
+   "sha": "336c0b3b4847ecacca6a5a72242c5bafcdc3e74a",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/neck_left_sheet.part",
+   "sha": "db821c40682f29aca488b0649361ec198eb914d9",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/neck_left_sheet.stl",
+   "sha": "04825be00974cab0e7afc0739d1c3e9f32c1a536",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/neck_right_sheet.part",
+   "sha": "422d3934809c86497885a5dcbd2e6c34689f4970",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/neck_right_sheet.stl",
+   "sha": "867149e47cde9e9bcfad82039ad40410971bebcc",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/passive_palonier.part",
+   "sha": "c3fe8bf09f2e9f14d93875c1c31f11307785d0c1",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/passive_palonier.stl",
+   "sha": "234dd7e442959efb0bdc685cb6630c7e9a2c5503",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/power_switch.part",
+   "sha": "65df91ad44afca6f51ade63f52f5c3119f824b55",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/power_switch.stl",
+   "sha": "a72c233db3158d93f95cc7cc7e5c6d2eb94151b4",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/raspberrypizerow.part",
+   "sha": "769abe7fbf69cbce0595d395620ea9f9fc1f1086",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/raspberrypizerow.stl",
+   "sha": "c47c60500270373cb7a8dc1f37c2029843f4d8d8",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/right_antenna_holder.part",
+   "sha": "43bbafc45cf64118972e2ecc8b062bc976998827",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/right_antenna_holder.stl",
+   "sha": "3bf85d626fc91908aaab36bfe6555c2fdc832718",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/right_cache.part",
+   "sha": "3f165a0518062778701aa830c1d7efd31c99465c",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/right_cache.stl",
+   "sha": "fa40ec61144663723ce5272c5bc490c635e4eece",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/right_roll_to_pitch.part",
+   "sha": "54801944bbd0ca230d507b1cb4976645f8cbf2ec",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/right_roll_to_pitch.stl",
+   "sha": "38dd671b585bae6af618f4a2333c03c610e5c83d",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/roll_bearing.part",
+   "sha": "566900c7a39275864497ed4c65f19a84d344d332",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/roll_bearing.stl",
+   "sha": "3210d4e8011a85b4f346774f63767919ac5cadbc",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/roll_motor_bottom.part",
+   "sha": "a824c1a458cbc34622a87c3898b676d13cd7e763",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/roll_motor_bottom.stl",
+   "sha": "a36dff5e401995e807da1ca20de62a3e8faebae1",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/roll_motor_top.part",
+   "sha": "7233b6c792c0885f9705916f0c3f91d2e091ea47",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/roll_motor_top.stl",
+   "sha": "99f314c8b566c4f01c3ff0998a77ea406d200ea0",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/sg90.part",
+   "sha": "c02443b0bfd42aeca3273ecf761f95885b96f89b",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/sg90.stl",
+   "sha": "bac663919949a141f1fc999483d717bad7bb0c92",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/trunk_bottom.part",
+   "sha": "2929658803e03ff27fba53f5ac5c8f783b752170",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/trunk_bottom.stl",
+   "sha": "48afbc7547a93dcb922cdbc9dc024d561aec4b7b",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/trunk_top.part",
+   "sha": "f5fad378eb7afce341f6d41dbce64de17cd565b0",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/trunk_top.stl",
+   "sha": "760665ce86a267b5c6e3c49d5f6b4e66ddca80b4",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/usb_c_charger.part",
+   "sha": "8cb8bd9aaae23032b74f743758a0ff6aa33ad7e8",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/usb_c_charger.stl",
+   "sha": "2760f99060f39256bc508478d4f4c21b764e61ba",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/wj-wk00-0122topcabinetcase_95.part",
+   "sha": "342f5188ec390f83ee28471c389b056c5f178a10",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/wj-wk00-0122topcabinetcase_95.stl",
+   "sha": "984d136ccfe9b10816ae1f833593770863ebf39f",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/wj-wk00-0123middlecase_56.part",
+   "sha": "ffcc8ab49e03df88897aa11b9e0a058aaf1f8553",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/wj-wk00-0123middlecase_56.stl",
+   "sha": "098c62c83cf604d69880fc000caa6cf02a31f1a5",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/wj-wk00-0124bottomcase_45.part",
+   "sha": "3497c02c0db5ecd8060b42b3f0ad3989e50d2dba",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "mini_bdx/robots/open_duck_mini_v2/wj-wk00-0124bottomcase_45.stl",
+   "sha": "b5c7064110ef07553211419c65cb38c9f1a70b8a",
+   "reason": "simulation/CAD-export mesh outside print/; includes third-party component models (servos, Pi Zero, connectors, vendor cases) with no stated license -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/Open_Duck_Mini_ParkHead A1_MINI_VERSION v2 v1.step",
+   "sha": "ce5f26ffcdd16e7278be867651b9b512b1db3915",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/Open_Duck_Mini_ParkHead.step",
+   "sha": "3ddf2489c5eb7bc574b8e878393f9e75c9729074",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/Park_Head.png",
+   "sha": "a2b41d526424b636009475d3ca86e44144128a67",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/README.md",
+   "sha": "43088ab34dac54103335f65f62e174fa4b0315a9",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print cut for A1/Base_FrontLeft.3mf",
+   "sha": "f5b2e608c028a413d5946ebf3c93ea4d208fee8e",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print cut for A1/Base_FrontRight.3mf",
+   "sha": "c5051e01c3ac8fa04f58e87d8f774ba479eeed0d",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print cut for A1/Front Left.3mf",
+   "sha": "43020415c528a8563de724b9bf6d71b2380cc345",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print cut for A1/Front_Right.3mf",
+   "sha": "2a6ac85c43e2bd0f9e50422fd51a65345b2f14f7",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print cut for A1/Front_Top.3mf",
+   "sha": "3bf98963ec00f0e8a0ea84577555b41e9b100fb1",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print cut for A1/HeadTop.3mf",
+   "sha": "95b3837032e76c6e12160b71122206dde05a6764",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/Baseplate Front.3mf",
+   "sha": "0e8ce5ba44b9e093070038f3b670ecb596070ae9",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/Baseplate Rear.3mf",
+   "sha": "4a8da9761b53f6cdc8691d793dafa09daf8191c5",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/BearingMount.3mf",
+   "sha": "3151654ede6e891ab64a4fc4b0e8ba0504406d73",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/FacePlateCurve NoCam.3mf",
+   "sha": "26bc8f14a2411b2968053a7c461deb16be1baeda",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/FacePlateCurve.3mf",
+   "sha": "3fbcbb195849bbf0d1a3447569705e625cd9e7ed",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/FlashlightBody.3mf",
+   "sha": "284f1b37ff74a4d88cec38880c8ecafd0a69403a",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/FlashlightLEDHolder.3mf",
+   "sha": "5a990aba87cc41a8f30cd1f0328e51bb58b1bdbe",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/FlashlightLEDRear.3mf",
+   "sha": "d6554a84aba66324c5dc21fd1271a202bfcaa519",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/FlashlightLens.3mf",
+   "sha": "219cde6cb456c2e350073599774ffe95653bd01d",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/HeadTop.3mf",
+   "sha": "98fc32831f09cb9e26b46bf5331dc9300008c9a9",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/MilkyLens.3mf",
+   "sha": "1feaa649a59c16ad8c0d2ff980aa206d62190a5f",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/Parklike_Left_Eye.3mf",
+   "sha": "ba4c9cb2074ea4c0545085ae15152efcdc80590a",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/Justins_Park_Head_Mod/print/Parklike_Right_Eye.3mf",
+   "sha": "2bbe2b9ac1f90bfc7699a47a5f9f45a2ca42a5cb",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/3D Model.png",
+   "sha": "437159165497b5fbe454ea5a9010a3229afc8233",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Back Panel.3mf",
+   "sha": "b846bb613d9c79c3bd5df32ea5735cc3ea9f9e03",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Bambu_X1C_Project_File.3mf",
+   "sha": "44a022f52eb09144253a584e6152b2e178353633",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/E-Stop Adapter Plate.3mf",
+   "sha": "af6c434fb2c32792e64646e78d927b292539e718",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/E-Stop Panel.3mf",
+   "sha": "c74a5bb342f7f5522db56e623d30354e28f9db3d",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Front Cover.3mf",
+   "sha": "80a890ac0d0ae9b441ccbc65206300667f863638",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Front Greeble.3mf",
+   "sha": "677ff6b51bc432b68a6ee86543abd201d0a7ca82",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Front Panel V4.3mf",
+   "sha": "734be9f696341c57c4663f36775d8cea0827d042",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Hip Cable Holder.3mf",
+   "sha": "309a1f6cf04ab24535b8e244d049bebe0df4b109",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Left Leg Cover.3mf",
+   "sha": "0e4b73c71ccdef9ea055dbca9383bda5e3c946f2",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Left Lower Cable Guide.3mf",
+   "sha": "3312be2212bbf049887ef63fa0e33b359d86bbb1",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Left Upper Cable Guide.3mf",
+   "sha": "711342baece7c6636c07e466de3bc07dcea45064",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Mini BDX Covers.3mf",
+   "sha": "225174dc795402e4cb34302adf354fe81d59c905",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Mini BDX V2 Jaimes Mods.step",
+   "sha": "6addfcca5163b53dba326fa23863f966f5fda984",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Print Orientation Reference.png",
+   "sha": "953d770e36d06b351ef6ed49d235fc1d25acd7b7",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/README.md",
+   "sha": "aff8f8a43415c4847936ca2671c88321bf8f245d",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Render.png",
+   "sha": "c072760ad80bae73846b5781b81755d2968c743f",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Right Leg Cover.3mf",
+   "sha": "0878cdaacab685fe0a71947b83f20769ac32a12b",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Right Lower Cable Guide.3mf",
+   "sha": "101ed317fd395fb79897ee17edaa5edca17adc94",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Right Upper Cable Guide.3mf",
+   "sha": "b82962c7f892e0eaa565280c0a1481920b55b2e7",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Stand.step",
+   "sha": "8f528d6fcc0aa9463129ebff6852c97d496edfb8",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/Top Body Support.3mf",
+   "sha": "b76daf98ba48f134c423174c0e6ff7f59e4be664",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/left_knee_to_ankle_left_sheet.3mf",
+   "sha": "056f7d3489d1063debf171b33b313ef84a979933",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/left_knee_to_ankle_right_sheet.3mf",
+   "sha": "c21ac03d801c3822f471a05c56e42badfbba46a5",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/stand/Left_foot_pad.3mf",
+   "sha": "eca2625d821d418e768a581f35ca586d7b61e1c9",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/stand/Right_foot_pad.3mf",
+   "sha": "328338d304b92f5c7329f01508d8efe5b94d8ab5",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/stand/Stand Top Jaime Skins.3mf",
+   "sha": "a8115c8376eab05bd0d47ad870a563de36d83979",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/stand/peg.3mf",
+   "sha": "a571085e4428f3c8636437f25e03f414038b88bb",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/stand/spacer.3mf",
+   "sha": "32f1f2ed407daf93384de185b985a1f3a4ca5dca",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/stand/stand_back.3mf",
+   "sha": "09156b608eb319ede9c42419716c5b7a461f0684",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/stand/stand_front.3mf",
+   "sha": "767e7fb86419f24202255e634c4c8ff9f78a5b8b",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/trunk_bottom.3mf",
+   "sha": "b4b7b1639c4ca789518a725a988d135c5477ff40",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/trunk_top_back.3mf",
+   "sha": "b1b8cbca2e141f9588ab9c74c70c992f243f5ffc",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  },
+  {
+   "path": "print/mods/v2_Jaimes_Mods/trunk_top_front.3mf",
+   "sha": "71fb76c763adeeb072a4975688feb3d6c89d6962",
+   "reason": "community mod geometry; contributors gave only an attribution request, no explicit license grant -> unclear, excluded"
+  }
+ ]
+}
