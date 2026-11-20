@@ -83,6 +83,10 @@ PLA, 0.2 mm layers, 15% infill unless noted.
 - Li-ion packs can catch fire if shorted or over-discharged. Use the BMS, insulate every joint and charge under supervision.
 - Fingers out of the legs while the servos are powered.
 
+## Bill of Material
+
+[Bill of Material (PDF)](docs/Open%20Duck%20Mini%20v2%20Walking%20Robot%20-%20Bill%20of%20Material.pdf): every part to buy, with shop links.
+
 ## Documentation download
 
 This repository is the documentation and source download for the build.
