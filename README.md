@@ -85,6 +85,8 @@ PLA, 0.2 mm layers, 15% infill unless noted.
 
 ## Bill of Material
 
+[Bill of Material (web page)](https://toolknox.github.io/hawkridge-open-duck-mini-v2-bipedal-robot/bill-of-material.html): open in the browser and click straight through to each part.
+
 [Bill of Material (PDF)](docs/Open%20Duck%20Mini%20v2%20Walking%20Robot%20-%20Bill%20of%20Material.pdf): every part to buy, with shop links.
 
 ## Documentation download
